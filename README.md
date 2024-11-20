@@ -1,12 +1,11 @@
-## Generative AI Studio Powered by Google Gemini Multi-Modal Large Language Model.
+## Generative AI Studio
 
-An implementation of end to end Generative AI Ecosystem with Google Gemini Model. The project deals with many features like AI Blog Generation, AI Text Summarization, Paraphrasing and many more. The entire system is using Google Gemini Large Language Model to solve the respective tasks. 
+This project is an end-to-end implementation of a Generative AI Ecosystem utilizing the Google Gemini Multi-Modal Large Language Model. It offers a suite of features including AI-powered blog creation, text summarization, paraphrasing, and more. The system is built to harness the capabilities of the Google Gemini model to efficiently handle various generative AI tasks.
 
-### Application Home Page
-![Gemini Multilingual Studio](https://github.com/AILucifer99/Gemini-Multilingual-Studio/blob/main/scripts/assets/Application.png?raw=true)
 
-### Usage Guidelines
-For using the system, follows the below provided steps one after the other in a sequential manner. 
+### Usage Instructions
+Follow the steps below to set up and use the system:
+
 1.   Generate a Google API Key from the website - `https://aistudio.google.com/app/apikey`
 2.   Once the API key is generated, save it in a file.
 3.   Clone the repository by the command - `git clone https://github.com/AILucifer99/Gemini-Multilingual-Studio`
@@ -18,10 +17,4 @@ For using the system, follows the below provided steps one after the other in a 
 9.   The application will be running on the URL - `http://localhost:8501`
 10.   Start using the application and unleash the power of the Google Gemini Large Language MultiModal Model.
 
-### Parameters in the GUI
-The system is designed in such a way that an end user can control the generation of the Gemini Large Language Model. So, many parameters are also provided in the GUI for the controlling. The parameters are consistent throughout the GUI. 
-1.   Temperature - The sampling temperature for text generation affects how predictable the output is; higher values make it less predictable. Avoid adjusting both temperature and top_p simultaneously.
-2.   Top P Sampling - The top-p sampling mass for text generation determines the probability mass considered. For example, with top_p = 0.2, only tokens with a cumulative probability of 0.2 are sampled. Avoid adjusting both temperature and top_p simultaneously.
-3.   Max New Tokens - The maximum number of tokens to generate in a single call. The model will stop generating when it reaches this limit.
 
-#### These three parameters are the main controlling components of the Gemini Model, so tuning these values can help a lot in generating variety of outputs for the same prompt and thus, the generation can be much more relieable and robust. 
